@@ -1,0 +1,27 @@
+.input {
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    border: none;
+    border: 2px solid #fff ;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-right: 50px;
+    padding-bottom: 6px;
+    padding-left: 4px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.input::placeholder {
+    color: #fff;
+}
+
+.home-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
